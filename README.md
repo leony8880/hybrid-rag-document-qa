@@ -23,7 +23,7 @@ and returns answers with page-level citations.
    streamlit run app.py
 
 ## Tech stack
-LangChain, Groq (Llama 3.3 70B), HuggingFace embeddings, Chroma, BM25, Streamlit
+LangChain, Groq (openai/gpt-oss-20b), HuggingFace embeddings, Chroma, BM25, Streamlit
 
 ## Limitations
 Answer quality depends on retrieval. No reranker or automated evaluation yet.
